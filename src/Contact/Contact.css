@@ -66,17 +66,25 @@
   }
 
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:450px) and (min-width:360px) {
   .contact-form{
     width: 400px;
   }
   .button{
-    height: 30px;
+    height: 43px;
+    width: 80%;
   }
   .input{
-    height: 18px;
+    height: 24px;
   }
   .textarea{
     height: 80px;
+    width: 75%;
+  }
+  input[type=text]{
+    background: rgb(3, 9, 64);
+    border: none;
+    width: 75%;
+    color: rgb(203, 194, 202);
   }
 }
