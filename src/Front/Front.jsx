@@ -6,6 +6,7 @@ import image from './myPic.png'
 export default function Front(){
     return (
         <div id="intro">
+            <div className="front">
             <div className="left">
                 <h1 className="name">Mobile App Developer & Machine Learning Enthusiast</h1>
                 <p>I design beautiful and amazing mobile apps and I love developing beautiful apps.</p>
@@ -18,8 +19,7 @@ export default function Front(){
             <div className="logo">
                 <img src={logo} alt="Logo" />
             </div>
-
-
+            </div>
         </div>
     )
 }
