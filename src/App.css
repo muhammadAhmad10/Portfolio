@@ -1,5 +1,24 @@
 .App {
+  background-color: rgb(4, 0, 12);
   text-align: center;
+}
+
+.App .azad{
+  background: linear-gradient( rgb(9, 15, 67),rgb(16, 30, 148),rgb(1, 3, 24));
+  width: 35px;
+  height: 35px;
+  position:fixed;
+  z-index: 1;
+  right: 3rem;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.azad .iconArrow{
+  color: white;
+  width: 25px;
+  height: 25px;
 }
 
 .App-logo {

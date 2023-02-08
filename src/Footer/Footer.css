@@ -1,0 +1,162 @@
+#footer{
+    width: 100%;
+    height: 400px;
+    margin-bottom: -0.5rem;
+    margin-top: 1rem;
+    background-color: rgb(4, 0, 12);
+    color: rgb(203, 194, 202);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .head{
+    background: rgb(16, 3, 62);
+    height: 150px;
+    width: 90%;
+    justify-content: center;
+    position: relative;
+    bottom: 75px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .head h2{
+    width: 33%;
+  }
+  .head .p1{
+    width: 34%;
+    font-size: 20px;
+  }
+  .whatsapp{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whatsapp a:hover{
+    border-radius: 30px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgb(9, 15, 67),rgb(16, 30, 148),rgb(1, 3, 24));
+  }
+  .head .p2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whi
+    ;
+  }
+  .head .p2 p{
+    border: 2px solid rgba(25, 231, 142, 0.662);
+    padding: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -30px;
+    width: 180px;
+    border-radius: 30px;
+    color: rgb(203, 194, 202);
+  }
+  .chat{
+    color: rgb(1, 234, 1);
+    position: relative;
+    margin-left: -50px;
+   }
+
+
+  footer .a{
+    color: rgb(203, 194, 202);
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    padding: 9px 11.5px;
+    border: 1.5px solid rgb(43, 43, 179)
+  }
+  footer .a .icon{
+    width: 25px;
+    height: 25px;
+  }
+  footer .a:hover{
+    color: white;
+  }
+  .foot-div{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .foot-div .icons{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .foot-div .text p{
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+  }
+  .foot-div .quote p{
+    font-size: 20px;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+  }
+  .foot-div .quote{
+    width: 90%;
+  }
+
+
+
+  @media screen and (max-width:700px) {
+    .head{
+      flex-direction: column;
+    }
+    .head h2{
+      width: 100%;
+      height: 30%;
+      margin-bottom: -10px;
+      margin-top: 30px;
+    }
+    .head .p1{
+      width: 100%;
+      height: 40%;
+      margin-bottom: -10px;
+    }
+    .whatsapp{
+      width: 100%;
+      height: 30%;
+      margin-bottom: 30px;
+      margin-top: 10px;
+      color: rgb(203, 194, 202);
+      display: flex;
+      justify-content: center;
+    }
+    .whatsapp a:hover{
+      border-radius: 30px;
+      width: 190px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient( rgb(9, 15, 67),rgb(16, 30, 148),rgb(1, 3, 24));
+      color: rgb(203, 194, 202);
+    }
+      .head .p2 p{
+        border: 2px solid rgba(25, 231, 142, 0.662);
+        padding: 4px;
+        width: 180px;
+        height: 20px;
+        border-radius: 30px;
+        color: rgb(203, 194, 202);
+      }
+  }
+  

@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { BsArrowUp } from 'react-icons/bs';
+import NavBar from './NavBar/NavBar'
+import Front from './Front/Front'
+import Footer from './Footer/Footer'
+import Skills from './Skills/Skills';
+import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
+import About from './About/About';
+import Certificates from './Certificates/Certificates';
 function App() {
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div onClick={()=>{topFunction()}} className='azad'>
+        <BsArrowUp className='iconArrow' />
+      </div>
+      <NavBar />
+      <Front />
+      <About />
+      <Projects />
+      <Skills />
+      <Certificates />
+      <Contact />
+      <Footer />
     </div>
   );
 }
