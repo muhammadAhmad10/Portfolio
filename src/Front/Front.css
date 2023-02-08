@@ -11,7 +11,7 @@
     align-items: center;
   }
   .front{
-    width: 100%;
+    width: 80%;
     height: 890px;
     background-color: rgb(4, 0, 12);
     margin: auto;
@@ -93,7 +93,7 @@
     .front{
       width: 80%;
       height: 890px;
-      background-color: rgb(151, 144, 164);
+      background-color: rgb(4, 0, 12);
       margin: auto;
       display: flex;
       min-width: 380px;
