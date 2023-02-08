@@ -25,8 +25,8 @@ export default function NavBar() {
             <div onClick={() => { openNav() }} className="lines">
                 <AiOutlineMenu className="line" />
             </div>
-            <div id="mySidenav" class="sidenav">
-                <a href="#navbar" class="closebtn" onClick={() => { closeNav() }}>&times;</a>
+            <div id="mySidenav" className="sidenav">
+                <a href="#navbar" className="closebtn" onClick={() => { closeNav() }}>&times;</a>
                 <a href="#about-section" onClick={() => { closeNav() }}>About</a>
                 <a href="#skills-section" onClick={() => { closeNav() }}>Skills</a>
                 <a href="#projects" onClick={() => { closeNav() }}>Projects</a>
